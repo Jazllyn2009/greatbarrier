@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Great Barrier Reef</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+
+  
+</head>
+<body>
+<div class="btn">
+  <span class="fas fa-bars"></span>
+</div>
+<nav class="sidebar">
+  <div class="text">
+</div>
+<ul>
+<li class="active"><a href="index.html">HOME</a></li>
+
+
+
+<li>
+      <a href="about.html" class="serv-btn">About Great Barrier Reef
+        
+      </a>
+
+</li>
+<li><a href="how.html">How was the Great Barrier Reef Created?</a></li>
+<li><a href="why.html">Why are the corals in Great Barrier Reef Disappearing</a></li>
+<li><a href="types.html">Types Of Corals In Great Barrier Reef</a></li>
+<li><a href="#">Feedback</a></li>
+</ul>
+</nav>
+<div class="content">
+  <div class="header"></div>
+<p>
+</p>
+</div>
+<script>
+$('.btn').click(function(){
+  $(this).toggleClass("click");
+  $('.sidebar').toggleClass("show");
+});
+  $('.feat-btn').click(function(){
+    $('nav ul .feat-show').toggleClass("show");
+    $('nav ul .first').toggleClass("rotate");
+  });
+  $('.serv-btn').click(function(){
+    $('nav ul .serv-show').toggleClass("show1");
+    $('nav ul .second').toggleClass("rotate");
+  });
+  $('nav ul li').click(function(){
+    $(this).addClass("active").siblings().removeClass("active");
+  });
+</script>
+<br>
+<br>
+ 
+    
+<br>
+<br>
+    <h2>What is Great Barrier Reef?</h2>
+    <br><br>
+    <br>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQwahptdzjqy5QjXYdWYqvM77-qMe3PnhHBPg&usqp=CAU" alt="wigbr">
+    <br>
+    <br>
+    <p><b>The Great Barrier Reef is the world's largest coral reef system composed of over 2,900 individual reefs and 900 islands stretching for over 2,300 kilometres over an area of approximately 344,400 square kilometres. The reef is located in the Coral Sea, off the coast of Queensland, Australia.</b> </p>
+<script src="about.js"></script>
+</body>
+</html>
